@@ -1,0 +1,86 @@
+img{
+    max-width: 100%;
+}
+ul{
+    padding: 0;
+}
+ul li{
+    display: inline-block;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* brand css */
+.logo .card {
+    width: 214px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.logo .card:hover{
+    background: #e7e7e8;
+}
+.blogh2{
+    position: relative;
+}
+.blogh2::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+    width: 50px;
+    height: 3px;
+    background: blue;
+}
+.brand{
+    position: relative;
+}
+.brand::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: blue;
+}
+.inimg{
+    background: blue;
+    width: 180px;
+    padding: 8px 8px;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 30px;
+    right: 25px;
+}
+.blogImg{
+    position: relative;
+}
+.inimg img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.inimg h6{
+    color: white;
+}
+/* footer css */
+.linkItem h4{
+    border-left: 5px solid blue;
+    padding-left: 10px;
+}
+.footerIcon ul li{
+    padding: 0 15px;
+    font-size: 20px;
+}
+.footerLink li{
+    display: block;
+    font-size: 20px;
+}
+.footerLink li a{
+    color: #aeaeae !important;
+}
